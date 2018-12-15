@@ -6,8 +6,6 @@
         <title>Blank App</title>
         <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
         <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
-        <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
-        <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
     </head>
     <body>
         <ons-navigator swipeable id="mainView" page="intro.html"></ons-navigator>
@@ -33,12 +31,9 @@
             </ons-page>
         </template>
 
-        <script>
-            function pushPage(page){
-                document.querySelector('#mainView').pushPage(page+'.html');
-            }   
-        </script>
-
         <script type="text/javascript" src="cordova.js"></script>
+        <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+        <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
     </body>
 </html>
