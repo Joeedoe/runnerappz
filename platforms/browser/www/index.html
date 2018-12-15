@@ -10,15 +10,34 @@
         <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
     </head>
     <body>
+        <ons-navigator swipeable id="mainView" page="intro.html"></ons-navigator>
+
+        <template id="intro.html">
+            <ons-page id="intro">
+                <p>Hi welcome to runner appz!</p>
+                <ons-button onclick="pushPage('login')">Get started</ons-button>
+            </ons-page>
+        </template>
+        
+        <template id="login.html">
+            <ons-page id="login">
+                <p>Login here</p>
+                <p>Not yet register?</p><ons-button onclick="pushPage('register')">Get started</ons-button>
+            </ons-page>
+        </template>
+
+        <template id="register.html">
+            <ons-page id="register">
+                <p>Register here</p>
+                <p>Have registered?</p><ons-button onclick="pushPage('login')">Get started</ons-button>
+            </ons-page>
+        </template>
+
         <script>
-            $(function(){
-                // Initialization code
-                $('ons-button').on('click', function(e) {
-                ons.notification.alert('Button is tapped!');
-                })
-            });
+            function pushPage(page){
+                document.querySelector('#mainView').pushPage(page+'.html');
+            }   
         </script>
-        <ons-button>Click me!</ons-button>
 
         <script type="text/javascript" src="cordova.js"></script>
     </body>
