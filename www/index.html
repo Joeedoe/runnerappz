@@ -32,6 +32,19 @@
         </template>
 
         <script type="text/javascript" src="cordova.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+            apiKey: "AIzaSyCGE5kmcDesp-AVuVQerqxLZSX6eSLQ12U",
+            authDomain: "runnerappz.firebaseapp.com",
+            databaseURL: "https://runnerappz.firebaseio.com",
+            projectId: "runnerappz",
+            storageBucket: "runnerappz.appspot.com",
+            messagingSenderId: "753903494278"
+            };
+            firebase.initializeApp(config);
+        </script>
         <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
         <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="app.js"></script>
