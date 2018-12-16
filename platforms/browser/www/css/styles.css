@@ -1,0 +1,144 @@
+.body {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+
+/* 1. INTRO PAGE */
+
+.containerBg {
+    background-color: #0288D1;
+    width: auto;
+    height: 100vh;
+}
+
+.containerBg p {
+    color: #fff;
+}
+
+.outsideFront {
+    position: relative;
+	width: 100%;
+	height: 90%;
+	background: #1B1B1E;
+	-webkit-clip-path: circle(80.5% at 50% 0);
+    clip-path: circle(80.5% at 50% 0);
+}
+
+.topFront {
+    -webkit-clip-path: circle(80.5% at 50% 0);
+    clip-path: circle(80.5% at 50% 0);
+    background: rgb(255,255,255);
+    background: linear-gradient(-120deg, rgba(255,255,255,1) 0%, rgba(218,218,218,1) 46%, rgba(207,207,207,1) 100%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 50px;
+    text-align: center;
+}
+
+.topFront img {
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    display: block;
+}
+
+.getStartedbtn {
+    text-align: center;
+    margin-top: -200px;
+}
+
+.getStartedbtn p {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+.getStartedbtn ons-button {
+    background-color: white;
+    color: #0288D1;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway';
+}
+
+/* END OF 1. INTRO PAGE */
+
+/* 2. LOGIN PAGE */
+
+.containerLogin {
+    background-color: #fff;
+    width: auto;
+    height: 100vh;
+}
+
+.logoLogin {
+    text-align: center;
+}
+
+.logoLogin ons-toolbar {
+    background-color: #fff;
+}
+
+.logoLogin img {
+    width: 250px;
+    height: auto;
+    margin-top: 90px;
+
+}
+
+.logoLogin p {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #0288D1;
+}
+
+.loginForm {
+    text-align: center;
+}
+
+.loginForm ons-input {
+    width: 80%;
+}
+
+.loginForm .signInBtn {
+    margin-top: 20px;
+}
+
+.loginForm ons-input {
+    margin: 20px;
+}
+
+.loginForm p ons-button {
+    width: 250px;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    border-radius: 45px;
+    -webkit-box-shadow: 0px 0px 25px -1px rgba(135,135,135,1);
+    -moz-box-shadow: 0px 0px 25px -1px rgba(135,135,135,1);
+    box-shadow: 0px 0px 25px -1px rgba(135,135,135,1);
+}
+
+.containerLogin .notRegisterText {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.notRegisterText ons-button {
+    background-color: #00E676;
+    border-radius: 45px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* END OF 2. LOGIN FORM */
+
+/* 3. REGISTER FORM */
+
+.containerRegister {
+    text-align: center;
+}
