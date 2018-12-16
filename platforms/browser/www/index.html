@@ -8,8 +8,18 @@
         <link rel="stylesheet" href="assets/onsen/css/onsen-css-components.min.css">
     </head>
     <body>
-        <ons-navigator swipeable id="mainView" page="intro.html"></ons-navigator>
 
+        <ons-navigator swipeable id="mainView" page="banner.html"></ons-navigator>
+
+        <!-- MAIN APP BANNER -->
+        <template id="banner.html">
+            <ons-page id="banner">
+                <p>loading...</p>
+            </ons-page>
+        </template>
+        <!-- /MAIN APP BANNER -->
+
+        <!-- FIRST TIME LOGIN -->
         <template id="intro.html">
             <ons-page id="intro">
                 <p>Hi welcome to runner appz!</p>
@@ -41,8 +51,18 @@
                 <p>Have registered?</p><ons-button onclick="pushPage('login')">Login</ons-button>
             </ons-page>
         </template>
+        <!-- /FIRST TIME LOGIN -->
 
-        <script type="text/javascript" src="cordova.js"></script>
+        <!-- MAIN PAGE -->
+        <template id="home.html">
+            <ons-page id="home">
+                <p>You have logged in succesfully!</p>
+                <ons-button onclick="logout()">Logout</ons-button>
+            </ons-page>
+        </template>
+        <!-- /MAIN PAGE -->
+
+        <!-- <script type="text/javascript" src="cordova.js"></script> -->
         <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
         <script>
             // Initialize Firebase
