@@ -46,6 +46,10 @@
     display: block;
 }
 
+.topFront h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
 .getStartedbtn {
     text-align: center;
     margin-top: -200px;
@@ -55,6 +59,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 24px;
+    font-family: 'Raleway', sans-serif;
 }
 .getStartedbtn ons-button {
     background-color: white;
@@ -94,6 +99,7 @@
     font-weight: 600;
     font-size: 24px;
     color: #0288D1;
+    font-family: 'Raleway', sans-serif;
 }
 
 .loginForm {
@@ -126,6 +132,7 @@
 .containerLogin .notRegisterText {
     margin-top: 50px;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 .notRegisterText ons-button {
@@ -141,4 +148,46 @@
 
 .containerRegister {
     text-align: center;
+}
+
+.containerRegister ons-toolbar {
+    background-color: #fff;
+}
+
+
+.registerText {
+    margin-top: 90px;
+}
+
+.registerText h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+.registerForm ons-input {
+    width: 80%;
+    padding: 20px;
+    display: block;
+    margin: 10px;
+}
+
+.registerForm ons-radio {
+    width: 80%;
+    padding: 20px;
+    display: inline-block;
+}
+
+.alreadyRegisterText p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.alreadyRegisterText ons-button {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+.registerForm .signUpButton ons-button {
+    background-color: #00E676;
+    width: 250px;
+    border-radius: 50px;
+    font-family: 'Raleway', sans-serif;
 }

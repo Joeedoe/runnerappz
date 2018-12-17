@@ -28,10 +28,6 @@ function pushPage(page){
     document.querySelector('#mainView').pushPage(page+'.html');
 }
 
-function popPage(){
-    document.querySelector('#mainView').popPage();
-}
-
 //user login
 function login(){
     var username = document.getElementById('username').value;
